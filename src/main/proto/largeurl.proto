@@ -1,0 +1,13 @@
+syntax = "proto3";
+package org.example.tinurl.backend;
+option java_multiple_files = true;
+
+service LargeUrlService {
+  rpc GetLargeUrl (MiniUrlDto) returns (LargeUrlDto);
+}
+message MiniUrlDto {
+  string minified_url = 1;
+}
+message LargeUrlDto {
+  string original_url = 1;
+}
