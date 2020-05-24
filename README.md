@@ -1,3 +1,6 @@
+
+![Shortlink-CI](https://github.com/taiberium/shortlink/workflows/Shortlink-CI/badge.svg)
+
 For URL shorten algorithm used: [Bijective Function](https://en.wikipedia.org/wiki/Bijection) 
 Transformation based on Base10 to Base63 convertation  
 
