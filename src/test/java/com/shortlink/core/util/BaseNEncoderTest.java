@@ -3,6 +3,7 @@ package com.shortlink.core.util;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+
 public class BaseNEncoderTest {
 
     private final BaseNEncoder baseNEncoder = new BaseNEncoder("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ");
