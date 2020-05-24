@@ -28,6 +28,11 @@ For GRPC api manual test use bloomRPC
 brew install bloomrpc
 ````
 
+For CI was configured github Workflows in directory:
+````
+.github/workflows/gradle.yml
+````
+
 To start stress test
 ````
 ./gradlew stressTest
