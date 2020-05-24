@@ -1,10 +1,12 @@
+# Shortlink
 
-![Shortlink-CI](https://github.com/taiberium/shortlink/workflows/Shortlink-CI/badge.svg)
+
+![Build and Test](https://github.com/taiberium/shortlink/workflows/Shortlink-CI/badge.svg)
 
 For URL shorten algorithm used: [Bijective Function](https://en.wikipedia.org/wiki/Bijection) 
 Transformation based on Base10 to Base63 convertation  
 
-Used for storage hazelcast by those reasons:
+**Used for storage hazelcast by those reasons**:
 - Use shards and able to unlimited scaling
 - Hazelcast creates the backups of partitions and distributes them among members for redundancy.
 - Each Hazelcast partition can have multiple replicas, which are distributed among the cluster members.
