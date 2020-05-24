@@ -22,4 +22,15 @@ of
 docker-compose up -d --scale shortlink-server=5
 (Hazelcast cluster memory will be accessible from all app replicas)
 ````
- 
+
+For GRPC api manual test use bloomRPC
+````
+brew install bloomrpc
+````
+
+To start stress test
+````
+./gradlew stressTest
+````
+after that in target directory the csv report will be created
+import it in zerocode/zerocode-result-interpreter.xlsx for more obvious results
