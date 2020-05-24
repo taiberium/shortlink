@@ -1,0 +1,13 @@
+syntax = "proto3";
+package org.example.tinurl.backend;
+option java_multiple_files = true;
+
+service TinyUrlService {
+  rpc Get (GetRequest) returns (GetResponse);
+}
+message GetRequest {
+  string original_url = 1;
+}
+message GetResponse {
+  string minified_url = 1;
+}
