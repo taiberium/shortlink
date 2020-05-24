@@ -15,6 +15,11 @@ Transformation based on Base10 to Base63 convertation
 - Have unique in-cluster ID generator based on timestamp, sequence and nodeId. Not brain
 split, nor network failure can break such id generation.
 
-
+To start app use:
+````
+docker-compose up -d 
+of
+docker-compose up -d --scale shortlink-server=5
+(Hazelcast cluster memory will be accessible from all app replicas)
+````
  
-  
