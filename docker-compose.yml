@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  shortlink-server:
+    container_name: shortlink-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: shortlink-server:latest
+    ports:
+      - 6565
